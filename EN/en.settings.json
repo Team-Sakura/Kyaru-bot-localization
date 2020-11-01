@@ -1,0 +1,29 @@
+{
+  "settings":{
+    "panel":{
+      "title":"Server settings for {{guild.name}}",
+      "hint":"❗ Prompt",
+      "lang":"Language",
+      "prefix":"Prefix",
+      "prefix_des":"new prefix"
+    },
+    "langs":{
+      "en":"**🇺🇸 English**",
+      "ru":"**🇷🇺 Russian**",
+      "rofl":"<:gulag:772355231832211467>"
+    },
+    "sets":{
+      "prefix":"prefix",
+      "lang":"language"
+    },
+    "lang":{
+      "error":"Specify a new language",
+      "error_perms":"You dont have permissions to use this command"
+    },
+    "prefix":{
+      "error":"Specify a new prefix",
+      "error_perms":"You dont have permissions to use this command"
+    },
+    "hint":"`[]` -  **Required argument**\n`()` - **Not required argument**\n`~~` - **You dont have right: `MANAGE_GUILD`**"
+  }
+}

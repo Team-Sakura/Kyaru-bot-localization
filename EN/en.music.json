@@ -1,0 +1,29 @@
+{
+
+  "play":{
+    "search":"🔎 |  Search",
+    "no_voice":"Go to the voice channel",
+    "no_text":"Specify a music" ,
+    "not_found":"❗| I found nothing",
+    "start":"🎵 | Now Playing: **{{track.name}}**",
+    "add_queue":"🎵 |  **{{track.name}}** added to the queue"
+  },
+  "loop":{
+    "no_queue":"Nothing is playing on this server",
+    "no_persm":"Only **{{user.tag}}** can activate loop"
+  },
+  "skip":{
+    "no_queue":"Nothing is playing on this server",
+    "no_persm":"Only **{{user.tag}}** can skip music"
+  },
+  "stop":{
+    "no_queue":"Nothing is playing on this server",
+    "no_persm":"Only **{{user.tag}}** can stop music"
+  } ,
+  "volume":{
+    "no_queue":"Nothing is playing on this server",
+    "no_persm":"Only **{{user.tag}}** can change the volume of music",
+    "no_number":"Specify a new volume",
+    "now_volume":"🔊 | Volume: `{{queue.volume}}`"
+  }
+}

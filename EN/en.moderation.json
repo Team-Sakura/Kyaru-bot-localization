@@ -1,0 +1,34 @@
+{
+  "ban":{
+    "user_noperms":"You dont have permissions to use this command",
+    "me_noperms":"I dont have permissions",
+    "no_member":"Specify a user",
+    "owner":"This server owner",
+    "admin":"His role is higher then your",
+    "ok":{
+      "action":"User was banned",
+      "moder":"Moderator: **{{moder.tag}}**",
+      "member":"Banned: **{{member.tag}}**",
+      "reason":"Reason: `{{ban.reason}}`"
+    }
+  },
+  "kick":{
+    "user_noperms":"You dont have permissions to use this command",
+    "me_noperms":"I dont have permissions",
+    "no_member":"Specify a user",
+    "owner":"This server owner",
+    "admin":"His role os higher then your",
+    "ok":{
+      "action":"User was kicked",
+      "moder":"Moderator: **{{moder.tag}}**",
+      "member":"Kicked: **{{member.tag}}**",
+      "reason":"Reason: `{{kick.reason}}`"
+    }
+  },
+  "clear":{
+    "user_noperms":"You dont have permissions to use this command",
+    "me_noperms":"I dont have permissions",
+    "no_number":"Specify a number of messages",
+    "yzpezno":"I clear: `{{messages.count}}`"
+  }
+}

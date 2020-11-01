@@ -1,0 +1,90 @@
+{
+    "help":{
+        "title":"You can use ,`{{prefix}}` as a prefix",
+        "category":{
+            "information":"🔰 Information",
+            "settings":"⚙️ Settings",
+            "music":"🎵 Music",
+            "moderation":"🛠️ Moderation",
+            "reactions":"🎎 Reactions",
+            "links":"📌 Useful links"
+        
+    },
+    "links":{ 
+        "support":"Support server",
+        "invite":"Invite"
+    },
+        "commands_information":{
+            "args":"`[]` - **Required argument**\n`()` - **Not required argument**",
+            "name":"Name",
+            "usage":"How using",
+            "description":"Description",
+            "alices":"Aliases"
+        }
+    },
+    "user_info":{
+        "voice_channel":"Voice channel: **{{voice.name}}**",
+        "devices":{
+            "desktop":"Computer",
+            "web":"Browser",
+            "mobile":"Mobile"
+        },
+        "statuses":{
+            "offline":"<:offline:770373374177968129> Offline"
+        },
+        "presence":{
+            "PLAYING":"<:game:770365558226944021>**Playing in** {{game.name}}",
+            "WATCHING":"<:watching:770368523817320479>**Watching:** {{watching.name}}",
+            "STREAMING":"<:streaming:770369512859631646>**Streaming:** [{{stream.name}}]({{stream.url}})",
+            "CUSTOM_STATUS":"<:customstatus:770370284875677748> {{state.name}}",
+            "LISTENING1":"<:spotify:770364541062086706>**Listening:** [{{state.name[0]}}](https://open.spotify.com/search/{{state.name[0]}}),[{{state.name[1]}}](https://open.spotify.com/search/{{state.name[1]}}) — [{{details.name}}](https://open.spotify.com/search/{{details.name}})",
+            "LISTENING2":"<:spotify:770364541062086706>**Listening:** [{{state}}](https://open.spotify.com/search/{{state}}) — [{{details.name}}](https://open.spotify.com/search/{{details.name}})"
+        },
+        "title":"Info about user",
+        "description":"User: **{{user.tag}}** {{user.flags}}\nID: `{{user.id}}`\nUser join to server: `{{user.join}}`\n{{voice}}",
+        "status":"Status",
+        "activitie":"Activity",
+        "role":"Roles [{{role.size}}]",
+        "join":"User join to server",
+        "create":"Account created",
+        "description2":"User: **{{user.tag}}** {{user.flags}}\nID: `{{user.id}}`"
+    },
+    "avatar":{
+        "title":"User avatar"
+    },
+    "stats":{
+        "error":{
+            "v1":"Specify an argument",
+            "v2":"All arguments",
+            "v3":"Example to use"
+        },
+        "peremenie":{
+            "system":"--system",
+            "music":"--music",
+            "host":"--host"
+        },
+        "system":{
+            "title":"Info about {{bot.username}}",
+            "servers":"Servers",
+            "users":"Users",
+            "channels":"Channels",
+            "emojis":"Emojis",
+            "commands":"Commands",
+            "memory":"Memory usage"
+        },
+        "host":{
+            "title":"Statistic about vds server: {{hostname}}",
+            "count_ader":"Number of cores",
+            "opera_system":"Operation System",
+            "version":"Version",
+            "memory":"Memory"
+        },
+        "music":{
+            "title":"Statistic of music nodes",
+            "players":"Players",
+            "playingPlayers":"Playing",
+            "uptime":"Time of work",
+            "memory":"Memory usage"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "hug":{
+    "all":"{{user.tag}} hug all users",
+    "no_seba":"You cant hug yourself",
+    "hug_user":"{{author.tag}} hug {{user.tag}}"
+  },
+  "kiss":{
+    "all":"{{user.tag}} kiss all users",
+    "no_seba":"You cant kiss yourself",
+    "kiss_user":"{{author.tag}} kiss {{user.tag}}"
+  },
+  "slap":{
+    "all":"{{user.tag}} slap all users",
+    "no_seba":"You cant slap yourself",
+    "slap_user":"{{author.tag}} slap {{user.tag}}"
+  }
+}
