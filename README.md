@@ -1,1 +1,4 @@
-# Kyaru-bot-localization-
+# Kyaru-bot-localization
+
+Это проект локализации для  KyaruBot
+для помощи в локализации вы можете открыть pull request и добавить/отредактировать файлы локализации
