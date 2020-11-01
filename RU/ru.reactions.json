@@ -1,0 +1,17 @@
+{
+    "hug":{
+        "all":"{{user.tag}} обнял(-а) Всех",
+        "no_seba":"Нельзя обнять себя",
+        "hug_user":"{{author.tag}} обнял(-а) {{user.tag}}"
+    },
+    "kiss":{
+        "all":"{{user.tag}} обнял(-а) Всех",
+        "no_seba":"Нельзя целовать себя",
+        "kiss_user":"{{author.tag}} обнял(-а) {{user.tag}}"
+    },
+    "slap":{
+        "all":"{{user.tag}} ударить(-а) Всех",
+        "no_seba":"Нельзя ударить себя",
+        "slap_user":"{{author.tag}} ударить(-а) {{user.tag}}"
+    }
+}
